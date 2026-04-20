@@ -91,5 +91,67 @@ Example 3
 
 ---
 
+# Repository & Software Design
+
+RAAC uses object-oriented design with the following major classes:
+
+- ApplicantChecker – central controller class (handles input flow, calculations, and report generation)
+- Property – stores property metadata including rent, type, location, and utilities
+- DebtToIncome – encapsulates applicant income, debt, and ratio calculations
+- Score (enum) – defines qualification tiers based on affordability thresholds
+
+The program emphasizes:
+
+- Encapsulation of financial and property data
+- File-based persistent data loading (properties and utility configurations)
+- Modular utility cost calculations via helper methods
+- Use of arrays and file parsing for structured data processing
+- Input validation loops for safe user interaction
+- Clear separation between computation, I/O, and reporting logic  
+
+---
+
+# Javadoc Overview
+
+The project includes detailed Javadoc for:
+
+### **Classes**
+- ApplicantChecker
+- Property
+- DebtToIncome
+- Score (enum)
+
+### **Methods**
+- Constructor behavior for Property and DebtToIncome
+- Accessors & mutators for all core data fields
+- Property lookup and file parsing (propertyInfo)
+- Utility cost calculation system (utilInfo, addUtils)
+- Yard care cost estimation (yardCareCost)
+- Debt-to-income and affordability calculations (moneyUse, leftOver)
+- Score classification logic (returnScore)
+- Report generation system (printReport)
+- Input validation loops for all user prompts
+
+### **Blocks of functionality explained**
+- File parsing and property dataset loading
+- Utility cost resolution by housing type and usage category
+- Multi-step affordability scoring pipeline
+- Report formatting and structured file output generation
+- Input validation patterns for numeric and string-based inputs
+- Exception handling for missing or malformed data files
 
 
+
+---
+
+# UML Class Diagram  
+
+<img width="1936" height="2283" alt="StableMateUML" src="https://github.com/user-attachments/assets/29f29ad1-c189-4741-b82b-06ef7784c479" /> 
+
+---
+
+# Citations & Influences
+
+- Inspiration for logic based on real equine management practices 
+
+---
