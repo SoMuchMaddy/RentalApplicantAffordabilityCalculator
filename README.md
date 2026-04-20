@@ -1,5 +1,5 @@
 
-# Applicant Applicant Affoordability Calculator (RAAC)
+# Rental Applicant Affordability Calculator (RAAC)
 
 ## TXT Files
 
