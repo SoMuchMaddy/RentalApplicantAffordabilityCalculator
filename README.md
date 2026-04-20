@@ -31,7 +31,7 @@ RAAC requires:
 
 Directory structure:
 
-raac-SoMuchMaddy/
+RAAC-SoMuchMaddy/
 │
 
 ├── data/ ← All input data files (.txt)
