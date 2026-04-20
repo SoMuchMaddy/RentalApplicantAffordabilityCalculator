@@ -31,7 +31,7 @@ RAAC requires:
 
 Directory structure:
 
-RAAC-SoMuchMaddy/
+RAAC/
 │
 
 ├── data/ ← All input data files (.txt)
@@ -140,18 +140,18 @@ The project includes detailed Javadoc for:
 - Input validation patterns for numeric and string-based inputs
 - Exception handling for missing or malformed data files
 
-
+<img width="1169" height="1057" alt="image" src="https://github.com/user-attachments/assets/3ce90aeb-f488-4469-ae19-cd84d10366e3" />
 
 ---
 
 # UML Class Diagram  
 
-<img width="1936" height="2283" alt="StableMateUML" src="https://github.com/user-attachments/assets/29f29ad1-c189-4741-b82b-06ef7784c479" /> 
+<img width="1274" height="952" alt="image" src="https://github.com/user-attachments/assets/9c06c732-f34b-436b-8427-bf91bb1c46ee" />
 
 ---
 
 # Citations & Influences
 
-- Inspiration for logic based on real equine management practices 
+- Sample data files info gathered from utility info sheets from the U.S Department of Housing and Urban Development for Bremerton & Kitsap County.
 
 ---
